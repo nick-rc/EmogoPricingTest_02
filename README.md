@@ -29,7 +29,7 @@ T.O.C.
 
 CLASSES
 - Customer Class
--- Parameters Associated
+- -- Parameters Associated
 - - customer_activity_rating = A value that falls within a range indicating how likely the customer is to interact with an Emogo(Value = 0-100)(Presets: Inactive, Interactive, Emogo Active)
 - - customer_demographic_type = A value that indicates what demographic they fall into within a preset section of users
 - - customer_age = Customers Age
@@ -38,24 +38,25 @@ CLASSES
 - - customer_Adjusted_Value = The calculated value of a customer in relation to the Cpmany(Value = $XX.XX)(Ex. $0.50/customer)
 - - customer_Emg_Value = The value of the customer relevant to Emogo
 ** Can have preset types for ease of use
--- Functions Associated
+- -- Functions Associated
 - - initWithPresetType:(CustomerClass*)presetCustomer = An init method that takes in a preset customer type with preset values based on commonly used business values.
 - - initWithBusinessValue: Creates a customer with random values that add up to the set Business Value.
-- - BusinessValue = Returns a value relevant to a Company combined with the Emogo Value
-- - 
+- - BusinessValue = Returns a value relevant to a Company combined with the Emogo Value(Value = $XX.XX)
 
+- Customer Collection Class
+- -- Parameters Associated
 
 - Emogo Message Class
--- Parameters Associated
+- -- Parameters Associated
 - - associated_Customers = A customer or collection of customers that will be associated with this Emogo_Message
 - - associated_content_Value = The monetary value associated with the location of the URL.
-- - interaction_Value = The value for a Company produced when a Customer interacts with the Emogo_Message. 
-- Has a 'content-value' value which indicates the potential value of the location of its link.
-- Has an interaction-potential value which indicates how likely the content is to attract a customer
+- - interaction_Value = The value for a Company produced when a Customer interacts with the Emogo_Message.
+- - interaction_Potential = A value indicating the adjusted potential for a Customer to Interact with the message.
 - Has a price-per-Emogo-sent value indicating the cost to the business.
 ** Can have preset 'types' selected by Businesses
-**
--- Functions Associated
+*** Test
+- -- Functions Associated
+- - 
 
 
 - Emogo Campaign Collection Class
