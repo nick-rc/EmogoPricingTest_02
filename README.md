@@ -1,7 +1,7 @@
 # EmogoPricingTest_02
 
-- Copywrite Emogo® Corporation. All rights reserved.
-- Nick Craig // 11 APR 2015 // Version 1.0
+Copywrite Emogo® Corporation. All rights reserved.
+Nick Craig // 11 APR 2015 // Version 1.0
 
 Testing Pricing Algorithm
 
@@ -17,6 +17,7 @@ Return Value Functiosn:
 
 - ReturnInteraction_Value: A function that takes parameters from the Emogo Message and returns the value of a specific customer interacting with a specific Emogo Message
 
+// See Emogo Message Class
 - CalcPrice_Per_Sent: A function that takes in set values from parameters included in the Customer Class, Emogo Message Class
 
 - ReturnCompany_Rev: A function that returns the Value to a company based on the customer type(Impression, Click, Purchase etc...)
@@ -45,30 +46,45 @@ CLASSES
 
 - Customer Collection Class
 - -- Parameters Associated
+- -- Functions Associated
+//
+- Customer Campaign Collection Class
+- Has an Inactive Customer Array
+- Has an Interactive Customer Array
+- Has an Emogo Active Customer Array
+//
 
 - Emogo Message Class
 - -- Parameters Associated
 - - associated_Customers = A customer or collection of customers that will be associated with this Emogo_Message
 - - associated_content_Value = The monetary value associated with the location of the URL.
-- - interaction_Value = The value for a Company produced when a Customer interacts with the Emogo_Message.
-- - interaction_Potential = A value indicating the adjusted potential for a Customer to Interact with the message.
+- - interaction_Potential = A value indicating the adjusted potential for a Customer to Interact with the message. Multiplied by customer_relevance_score and and customer_activity_rating
+- - interaction_Value = The value for a Company produced when a Customer interacts with the Emogo_Message. Multiplied by interaction_Potential.(*This will adjust the cost per send based on likely impression, interaction, or views*)
+- - Emogo_sending_price = The final cost to a Business per Emogo_Message sent. Determined by sending price calculation function.(CalcPrice_Per_Sent)
 - Has a price-per-Emogo-sent value indicating the cost to the business.
-** Can have preset 'types' selected by Businesses
-*** Test
+- ** Can have preset 'types' selected by Businesses
 - -- Functions Associated
-- - 
+- - CalcPrice_Per_Sent: A function that takes in set values from parameters included in the Customer Class, Emogo Message Class(Input Values: customer_adjusted_score, interaction_Value, interaction_Potential, customer_relevance_Score)
 
-
+- Emogo Collection Class
+- -- Parameters Associated
+- -- Functions Associated
+//
 - Emogo Campaign Collection Class
 - Has a Types Array of chosen message content types
 - Has a Demographics Array of the main demographics in the campaign
-- Customer Campaign Collection Class
-- Has an Inactive Customer Array
-- Has an Interactive Customer Array
-- Has an Emogo Active Customer Array
+//
+
+- Emogo Campaign Class
+- -- Parameters Associated
+- -- Functions Associated
+//
 - Emogo SMS Messaging Campaign Class
 - Has a length of campaign value.
 - Has an SMS burst rate value
 - Has a Total Bursts value
 - Has an Emogo Campaign Collection
 - Has a Customer Campaign Collection
+//
+
+
