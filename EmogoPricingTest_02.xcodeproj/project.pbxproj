@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4520444A1ACF38D0009F429D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 452044491ACF38D0009F429D /* main.m */; };
+		452044521ACF3965009F429D /* Emogo_MessageClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 452044511ACF3965009F429D /* Emogo_MessageClass.m */; };
+		452044551ACF6244009F429D /* Emogo_CollectionClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 452044541ACF6244009F429D /* Emogo_CollectionClass.m */; };
+		4520445E1ACF6341009F429D /* CustomerClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4520445D1ACF6341009F429D /* CustomerClass.m */; };
+		452044611ACF637F009F429D /* Customer_CollectionClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 452044601ACF637F009F429D /* Customer_CollectionClass.m */; };
+		452044641ACF63BF009F429D /* Emogo_SMS_CampaignClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 452044631ACF63BF009F429D /* Emogo_SMS_CampaignClass.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		452044441ACF38D0009F429D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		452044461ACF38D0009F429D /* EmogoPricingTest_02 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = EmogoPricingTest_02; sourceTree = BUILT_PRODUCTS_DIR; };
+		452044491ACF38D0009F429D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		452044501ACF3965009F429D /* Emogo_MessageClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emogo_MessageClass.h; sourceTree = "<group>"; };
+		452044511ACF3965009F429D /* Emogo_MessageClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emogo_MessageClass.m; sourceTree = "<group>"; };
+		452044531ACF6244009F429D /* Emogo_CollectionClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emogo_CollectionClass.h; sourceTree = "<group>"; };
+		452044541ACF6244009F429D /* Emogo_CollectionClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emogo_CollectionClass.m; sourceTree = "<group>"; };
+		4520445C1ACF6341009F429D /* CustomerClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomerClass.h; path = ../CustomerClass.h; sourceTree = "<group>"; };
+		4520445D1ACF6341009F429D /* CustomerClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomerClass.m; path = ../CustomerClass.m; sourceTree = "<group>"; };
+		4520445F1ACF637F009F429D /* Customer_CollectionClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Customer_CollectionClass.h; sourceTree = "<group>"; };
+		452044601ACF637F009F429D /* Customer_CollectionClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Customer_CollectionClass.m; sourceTree = "<group>"; };
+		452044621ACF63BF009F429D /* Emogo_SMS_CampaignClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emogo_SMS_CampaignClass.h; sourceTree = "<group>"; };
+		452044631ACF63BF009F429D /* Emogo_SMS_CampaignClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emogo_SMS_CampaignClass.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		452044431ACF38D0009F429D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4520443D1ACF38D0009F429D = {
+			isa = PBXGroup;
+			children = (
+				452044481ACF38D0009F429D /* EmogoPricingTest_02 */,
+				452044471ACF38D0009F429D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		452044471ACF38D0009F429D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				452044461ACF38D0009F429D /* EmogoPricingTest_02 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		452044481ACF38D0009F429D /* EmogoPricingTest_02 */ = {
+			isa = PBXGroup;
+			children = (
+				452044491ACF38D0009F429D /* main.m */,
+				452044501ACF3965009F429D /* Emogo_MessageClass.h */,
+				452044511ACF3965009F429D /* Emogo_MessageClass.m */,
+				452044531ACF6244009F429D /* Emogo_CollectionClass.h */,
+				452044541ACF6244009F429D /* Emogo_CollectionClass.m */,
+				4520445C1ACF6341009F429D /* CustomerClass.h */,
+				4520445D1ACF6341009F429D /* CustomerClass.m */,
+				4520445F1ACF637F009F429D /* Customer_CollectionClass.h */,
+				452044601ACF637F009F429D /* Customer_CollectionClass.m */,
+				452044621ACF63BF009F429D /* Emogo_SMS_CampaignClass.h */,
+				452044631ACF63BF009F429D /* Emogo_SMS_CampaignClass.m */,
+			);
+			path = EmogoPricingTest_02;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		452044451ACF38D0009F429D /* EmogoPricingTest_02 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4520444D1ACF38D0009F429D /* Build configuration list for PBXNativeTarget "EmogoPricingTest_02" */;
+			buildPhases = (
+				452044421ACF38D0009F429D /* Sources */,
+				452044431ACF38D0009F429D /* Frameworks */,
+				452044441ACF38D0009F429D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EmogoPricingTest_02;
+			productName = EmogoPricingTest_02;
+			productReference = 452044461ACF38D0009F429D /* EmogoPricingTest_02 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4520443E1ACF38D0009F429D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Nick Craig";
+				TargetAttributes = {
+					452044451ACF38D0009F429D = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = 452044411ACF38D0009F429D /* Build configuration list for PBXProject "EmogoPricingTest_02" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4520443D1ACF38D0009F429D;
+			productRefGroup = 452044471ACF38D0009F429D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				452044451ACF38D0009F429D /* EmogoPricingTest_02 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		452044421ACF38D0009F429D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				452044641ACF63BF009F429D /* Emogo_SMS_CampaignClass.m in Sources */,
+				452044611ACF637F009F429D /* Customer_CollectionClass.m in Sources */,
+				452044521ACF3965009F429D /* Emogo_MessageClass.m in Sources */,
+				4520444A1ACF38D0009F429D /* main.m in Sources */,
+				4520445E1ACF6341009F429D /* CustomerClass.m in Sources */,
+				452044551ACF6244009F429D /* Emogo_CollectionClass.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4520444B1ACF38D0009F429D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		4520444C1ACF38D0009F429D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		4520444E1ACF38D0009F429D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4520444F1ACF38D0009F429D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		452044411ACF38D0009F429D /* Build configuration list for PBXProject "EmogoPricingTest_02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4520444B1ACF38D0009F429D /* Debug */,
+				4520444C1ACF38D0009F429D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4520444D1ACF38D0009F429D /* Build configuration list for PBXNativeTarget "EmogoPricingTest_02" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4520444E1ACF38D0009F429D /* Debug */,
+				4520444F1ACF38D0009F429D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4520443E1ACF38D0009F429D /* Project object */;
+}
