@@ -1,7 +1,10 @@
 # EmogoPricingTest_02
 
 Copywrite Emogo® Corporation. All rights reserved.
+
 Nick Craig // 11 APR 2015 // Version 1.0
+
+WORKING
 
 Testing Pricing Algorithm
 
@@ -44,15 +47,16 @@ CLASSES
 - - initWithBusinessValue: Creates a customer with random values that add up to the set Business Value.
 - - BusinessValue = Returns a value relevant to a Company combined with the Emogo Value(Value = $XX.XX)
 
+
 - Customer Collection Class
 - -- Parameters Associated
+- - Customer_CollectionArray = An array of customers entered 
+- - selected_CustomerArray = An array of customers created from Customers in Customer_CollectionArray that are set in set_custom_CustomerArray
 - -- Functions Associated
-//
-- Customer Campaign Collection Class
-- Has an Inactive Customer Array
-- Has an Interactive Customer Array
-- Has an Emogo Active Customer Array
-//
+- - set_custom_CustomerArray = A function that takes in input values and returns an array of Customs that fit the specific criteria.(Input Values = standard_deviation_Value(Value that indicated how similar customers must be), customer_Types(An array or single customer that is compared to the Customer_CollectionArray))
+- - initWithCollectionArray = A function that creates a collection class based off of a preset array of customers.
+- - initWithArrayandSelection = A function that automatically creates a custom Array as well.
+
 
 - Emogo Message Class
 - -- Parameters Associated
@@ -68,6 +72,9 @@ CLASSES
 
 - Emogo Collection Class
 - -- Parameters Associated
+- - emogo_CollectionArray = An array of Emogo Messages
+- - emogo_CustomArray = An array of Emogo Messages created from CollectionArray based off of Message Types and a deviation score.(Deviation score can be based off of or multiplied by interaction potentials, etc..)
+- - emogo_Selections = An array or single Emogo Message that 
 - -- Functions Associated
 //
 - Emogo Campaign Collection Class
